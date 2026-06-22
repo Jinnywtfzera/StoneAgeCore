@@ -1,0 +1,50 @@
+# StoneAge Server Configuration
+# ใส่ค่าจริงแล้ว — พร้อมใช้งาน
+
+# ===== GRAVE SYSTEM =====
+grave:
+  enabled: true
+  grave-name: "&c☠ ศพของ {player}"
+  despawn-time: 300
+  grave-block: CHEST
+  show-particles: true
+
+# ===== CHANCE CRAFTING =====
+crafting:
+  enabled: true
+  gui-title: "&8[&6โต๊ะคราฟยุคหิน&8]"
+  base-success-rate: 60
+  wood-stone-success-rate: 75
+  craft-cost: 10
+  fail-message: "&cการคราฟล้มเหลว! วัสดุสูญหาย..."
+  success-message: "&aคราฟสำเร็จ!"
+
+# ===== ECONOMY =====
+economy:
+  enabled: true
+  currency-name: "เหรียญ"
+  currency-symbol: "💰"
+  starting-balance: 100
+  sell-prices:
+    WOOD: 5
+    STONE: 3
+    IRON_INGOT: 20
+    GOLD_INGOT: 35
+    DIAMOND: 100
+    COAL: 5
+    BEEF: 8
+    CHICKEN: 6
+
+# ===== DISCORD =====
+discord:
+  enabled: true
+  guild-id: "1517816314784120914"
+  required-role-id: "1517817230669385768"
+  welcome-message: "&a&l✦ &fยินดีต้อนรับคุณ &e{discord_name} &fเข้าสู่เซิร์ฟเวอร์ &a&l✦"
+  leave-message: "&c{discord_name} &fได้ออกจากเซิร์ฟเวอร์แล้ว"
+
+# ===== VOICE =====
+voice:
+  whisper-distance: 5
+  normal-distance: 16
+  shout-distance: 48

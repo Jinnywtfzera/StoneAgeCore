@@ -1,0 +1,25 @@
+name: StoneAgeCore
+version: 1.0.0
+main: com.stoneage.StoneAgeCore
+api-version: 1.20
+description: Stone Age Server Core Plugin
+authors: [StoneAge]
+depend: [Vault, DiscordSRV]
+softdepend: [EssentialsX]
+
+commands:
+  stonage:
+    description: Main StoneAge command
+    usage: /stoneage <reload|info>
+    permission: stoneage.admin
+
+permissions:
+  stoneage.admin:
+    description: Admin permission
+    default: op
+  stoneage.play:
+    description: Permission to play on server
+    default: false
+  stoneage.craft:
+    description: Permission to use crafting table
+    default: true
